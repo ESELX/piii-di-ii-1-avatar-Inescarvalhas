@@ -15,16 +15,15 @@ function setup() { //código que só corre uma vez
 
 function draw() { //código que corre em loop
   background(220); //podem apagar esta linha!
-
   //cabelo
     fill(76, 17, 5)
-    circle(width-200, height-170, 200)
+    circle(200,225, 200)
     fill(76,17,5)
       rect(100, 170, 200, 195, 50);
 
   //pescoço
     fill(243,214,194)
-    rect(175, height-70, 50, 155, 20);
+    rect(175, 230, 50, 155, 20);
 
   //camisa
     fill(209,8,8)
@@ -32,19 +31,13 @@ function draw() { //código que corre em loop
 
   //cara
     fill(243, 214, 194)
-    circle(width/2, height-140, 180)
+    circle(200, 260, 180)
 
   //franja
      fill(76,17,5)
     triangle(105, 260, 120, 176, 200, 170)
     fill(76,17,5)
     triangle(295, 260, 200, 170, 280, 180)
-
-
-
-
-
-
 
   //nariz
     fill(243,214,194)
@@ -62,30 +55,29 @@ function draw() { //código que corre em loop
 
   //olho1
     fill(255,255,255)
-    circle(width-240, height-150, 40)
+    circle(160, 250, 40)
     fill(215,119,12)
-    circle(width-240, height-150, 25)
+    circle(160, 250, 25)
     fill(20,20,0)
-    circle(width-240, height-150, 15)
+    circle(160, 250, 15)
     fill(255,255,255)
-    circle(width-245, height-153, 8)
+    circle(155, 243, 8)
     fill(255,255,255)
-    circle(width-235, height-145, 5)
-
-
-
+    circle(165,255, 5)
 
   //olho2
     fill(255,255,255)
-    circle(240, height-150, 40)
+    circle(240, 250, 40)
      fill(215,119,12)
-    circle(240, height-150, 25)
+    circle(240, 250, 25)
     fill(20,20,0)
-    circle(240, height-150, 15)
+    circle(240, 250, 15)
     fill(255,255,255)
-    circle(235, height-153, 8)
+    circle(235, 243, 8)
      fill(255,255,255)
-    circle(246, height-145, 5)
+    circle(246, 255, 5)
 
 
-}
+
+
+  }
