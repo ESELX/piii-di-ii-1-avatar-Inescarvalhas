@@ -86,6 +86,6 @@ function draw() { //código que corre em loop
     circle(235, height-153, 8)
      fill(255,255,255)
     circle(246, height-145, 5)
-    
+
 
 }
